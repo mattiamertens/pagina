@@ -4,7 +4,7 @@ function lingua() {
 $(".lingua").click(lingua);
 
 $(document).ready(function (){
-  $("#caricamento").delay(3600).fadeOut(1700)});
+  $("#caricamento").delay(3600).fadeOut()});
 
 function button() {
   $(".descrizione").toggleClass("vista", 1000)
@@ -32,7 +32,6 @@ function initMap() {
 function active() {
   $(this).addClass("hovered")
 };
-
 function noactive() {
   $(this).removeClass("hovered")
 };
