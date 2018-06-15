@@ -3,7 +3,13 @@ body {
   font-family: 'Gidole';
   width: 100%;
 }
-
+.inizio{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 19;
+  height: 2445px;
+  width: 100%;
+}
 .language{
   position: absolute;
   z-index: 10;
@@ -232,6 +238,7 @@ h2{
   position: relative;
   height: 135px;
   width: 40%;
+  padding: 0 10px;
   left: 5%;
   line-height: 1.4;
   box-shadow: 0px -5px 20px 0px inset #50592E;
@@ -269,7 +276,10 @@ h2{
 .txt{
   display: inline; /* provo a ruotare il div con testo e basta */
   }
-
+/* .activity{
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+} */
 .ac1{
   grid-column: 1/2;
   max-width: 240px;
@@ -342,6 +352,7 @@ h2{
 
 .hovered{
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
 }
 
 #map {
@@ -546,14 +557,98 @@ h2{
 
 .pic{
 height: 500px;
+width: 756px;
 position: relative;
 left: 50%;
 transform: translate(-50%);
 display: none;
+background-size: cover;
 }
 .active {
   display: inline-block;
 }
+
+/* foto dello slideshow */
+.ph1{
+background-image: url(/Users/mattia/Code/pagina/Apartment/images/JPG/1.jpg);
+}
+.ph2{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/2.jpg);
+
+}
+.ph3{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/3.jpg);
+
+}
+.ph4{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/4.jpg);
+
+}
+.ph5{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/5.jpg);
+
+}
+.ph6{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/6.jpg);
+
+}
+.ph7{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/7.jpg);
+
+}
+.ph8{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/8.jpg);
+
+}
+.ph9{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/9.jpg);
+
+}
+.ph10{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/10.jpg);
+
+}
+.ph11{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/11.jpg);
+
+}
+.ph12{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/12.jpg);
+
+}
+.ph13{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/13.jpg);
+
+}
+.ph14{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/14.jpg);
+
+}
+.ph15{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/15.jpg);
+
+}
+.ph16{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/16.jpg);
+
+}
+.ph17{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/17.jpg);
+
+}
+.ph18{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/21.jpg);
+
+}
+.ph19{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/19.jpg);
+
+}
+.ph20{
+  background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/20.jpg);
+
+}
+
 
 button {
   padding: 20px;
@@ -562,23 +657,30 @@ button {
   color: white;
   position: relative;
   top: 0%;
+  z-index: 10;
   cursor: pointer;
   outline: none;
 }
 .next{
-  position: relative;
+  position: absolute;
   left: 100%;
   background-color: #E37B40;
   border-radius: 0px 10px 10px 0px;
-  transform: translate(-105%, -400%);
+  transform: translate(-168%, 200px);
 }
+
 .prev{
-  position: relative;
-  transform: translate(-94%, -400%);
+  position: absolute;
+  transform: translate(80%, 200px);
   background-color: #E37B40;
   left: 0%;
   border-radius: 10px 0 0px 10px;
 }
+.next:hover, .prev:hover{
+  background-color: #FFAB7A;
+  color: #606899;
+}
+
 
 #show {
   position: absolute;

@@ -3,6 +3,9 @@ function lingua() {
 }
 $(".lingua").click(lingua);
 
+$(document).ready(function (){
+  $("#caricamento").delay(3600).fadeOut(1700)});
+
 function button() {
   $(".descrizione").toggleClass("vista", 1000)
   if ($(".descrizione").hasClass("vista")) {
@@ -26,16 +29,16 @@ function initMap() {
   });
 };
 
-function activ() {
+function active() {
   $(this).addClass("hovered")
 };
 
-function noactiv() {
+function noactive() {
   $(this).removeClass("hovered")
 };
 
-$(".activity").hover(activ);
-$(".activity").mouseleave(noactiv);
+$(".activity").hover(active);
+$(".activity").mouseleave(noactive);
 
 
 $(document).ready(function(){
