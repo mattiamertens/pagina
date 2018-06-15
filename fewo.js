@@ -33,10 +33,10 @@ function active() {
   $(this).addClass("hovered")
 };
 function noactive() {
-  $(this).removeClass("hovered")
+  $(".coverdiv").removeClass("hovered")
 };
 
-$(".activity").hover(active);
+$(".coverdiv").mouseover(active);
 $(".activity").mouseleave(noactive);
 
 
