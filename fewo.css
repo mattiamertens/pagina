@@ -131,12 +131,12 @@ h2{
   color: white;
   text-align: center;
   width: 190px;
-  box-shadow: 2px 1px 4px grey;
-  background-color: #D9CCC0;
+  box-shadow: 2px 1px 4px #88A67B;
+  background-color: #96A679;
   font-size: 25pt;
 }
 .primo{
-  background-color: #D1D9B4;
+  background-color: #96A679;
   display: inline-block;
   width: auto;
   padding: 25px 10px;
@@ -150,7 +150,7 @@ h2{
   position: relative;
   text-align: center;
   font-size: 12pt;
-  font-family: Futura;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
@@ -179,7 +179,6 @@ h2{
 }
 
  .box1{
-  background-color: #F0CA4D;
   background-image: url(/Users/mattia/Code/pagina/Apartment/images/ingresso.jpg);
   grid-column: 1/2;
   grid-row: 1/3;
@@ -282,6 +281,7 @@ h2{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(400px, auto);
+  grid-column-gap: 5px;
   }
 
 .txt{
@@ -321,19 +321,19 @@ h2{
 }
 
 .div2{
-  left: 240px;
+  left: 241px;
 }
 .div3{
-  left: 480px;
+  left: 482px;
 }
 .div4{
-  left: 720px;
+  left: 723px;
 }
 .div5{
-  left: 960px;
+  left: 964px;
 }
 .coverdiv{
-  width: 240px;
+  width: 236px;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 10;
@@ -382,10 +382,25 @@ h2{
   height: 100%;
   background-size: cover;
 }
+.color{
+  width: 100%;
+  height: 625px;
+  background-color: #96A679;
+  position: absolute;
+  z-index: -1;
+}
+.col{
+  transform: translate(0, -125.5%);
+  height: 400px;
 
+}
+.col1{
+transform: translate(0, -30%);
+}
 #map {
   height: 400px;
-  width: 100%;
+  width: 94%;
+  margin: 0 auto;
  }
 
  /* Inizio About us */
@@ -695,7 +710,7 @@ button {
 .servizi{
   height: 80px;
   width: 100%;
-  background-color: #D9CCC0;
+  background-color: #96A679;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 10px;
@@ -836,6 +851,6 @@ button {
   grid-column: 1/3;
   text-align: right;
   position: relative;
-  top: -50px;
+  top: -63px;
   font-size: 13px;
 }
