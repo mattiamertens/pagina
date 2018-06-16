@@ -728,10 +728,9 @@ button {
   grid-gap: 10px;
   }
 
-  .icon{
+.icon{
     min-height: 80px;
-    text-align: center;
-  }
+    text-align: center;}
 
 .wifi{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/wifi.svg);
@@ -815,7 +814,7 @@ button {
 }
 
 .micro{
-  background-image: url(/Users/mattia/Code/pagina/micro.svg);
+  background-image: url(/Users/mattia/Code/pagina/Apartment/icons/micro.svg);
   background-size: 80px 80px;
   background-repeat: no-repeat;
   height: 80px;
