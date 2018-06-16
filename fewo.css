@@ -64,7 +64,7 @@ a{
 }
 .loghino{
   position: absolute;
-  background-image: url(/Users/mattia/Desktop/Apartment/images/loghino/logo.svg);
+  background-image: url(/Users/mattia/Code/pagina/Apartment/icons/loghino/logo.svg);
   z-index: 1;
   height: 35px;
   width: 35px;
@@ -108,7 +108,7 @@ a{
   position: relative;
   height: 500px;
   width: 100%;
-  background-image: url(/Users/mattia/Desktop/Apartment/images/pano.jpg);
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/pano.jpg);
 }
 
 .pano1{
