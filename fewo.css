@@ -124,14 +124,15 @@ a{
 h2{
   margin: 0 auto;
   padding: 10px 13px;
+  min-width: 210px;
   position: relative;
   border-radius: 4px;
   top: 60%;
   color: white;
   text-align: center;
+  width: 190px;
   box-shadow: 2px 1px 4px grey;
   background-color: #D9CCC0;
-  width: 190px;
   font-size: 25pt;
 }
 .primo{
@@ -146,7 +147,6 @@ h2{
   border-radius: 7px;
 }
 .cit{
-
   position: relative;
   text-align: center;
   font-size: 12pt;
@@ -211,7 +211,6 @@ h2{
   background-image: url(/Users/mattia/Code/pagina/Apartment/images/vista.jpg);
   grid-row: 2/4;
   background-size: cover;
-
 }
 .box7{
   background-image: url(/Users/mattia/Code/pagina/Apartment/images/rosa.jpg);
@@ -297,10 +296,10 @@ h2{
   max-width: 240px;
 }
 .trasimeno{
-    background-image: url(/Users/mattia/Desktop/Apartment/images/trasimeno.jpg);
-    height: 100%;
-    background-size: cover;
-    color: white;
+  background-image: url(/Users/mattia/Desktop/Apartment/images/trasimeno.jpg);
+  height: 100%;
+  background-size: cover;
+  color: white;
 }
 .titolo{
   margin: 0px 0 20px 3%;
@@ -349,15 +348,15 @@ h2{
   color: white;
 }
 .borghi{
-    background-image: url(/Users/mattia/Desktop/Apartment/images/assisi.jpg);
-    height: 100%;
-    background-size: cover;
+  background-image: url(/Users/mattia/Desktop/Apartment/images/assisi.jpg);
+  height: 100%;
+  background-size: cover;
 }
 
 .festival{
-    background-image: url(/Users/mattia/Desktop/Apartment/images/uj.jpg);
-    height: 100%;
-    background-size: cover;
+  background-image: url(/Users/mattia/Desktop/Apartment/images/uj.jpg);
+  height: 100%;
+  background-size: cover;
 }
 .ac3{
   grid-column: 3/4;
@@ -369,9 +368,9 @@ h2{
   color: white;
 }
 .fiori{
-    background-image: url(/Users/mattia/Desktop/Apartment/images/fiori.jpg);
-    height: 100%;
-    background-size: cover;
+  background-image: url(/Users/mattia/Desktop/Apartment/images/fiori.jpg);
+  height: 100%;
+  background-size: cover;
 }
 
 .ac5{
@@ -379,9 +378,9 @@ h2{
   color: white;
 }
 .cibo{
-    background-image: url(/Users/mattia/Desktop/Apartment/images/sagra.jpg);
-    height: 100%;
-    background-size: cover;
+  background-image: url(/Users/mattia/Desktop/Apartment/images/sagra.jpg);
+  height: 100%;
+  background-size: cover;
 }
 
 #map {
@@ -511,7 +510,6 @@ h2{
   background-size: contain;
 }
 
-
 .co3{
   grid-column: 2/3;
   grid-row: 2/3;
@@ -547,13 +545,6 @@ h2{
   position: absolute;
   left: 55.5%;
   top: 35%;
-}
-
-
-.porco{
-  grid-column: 2/3;
-  grid-row: 3/4;
-  text-align: center;
 }
 
 /* Inizio Apartment */
@@ -603,79 +594,60 @@ background-image: url(/Users/mattia/Code/pagina/Apartment/images/JPG/1.jpg);
 }
 .ph2{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/2.jpg);
-
 }
 .ph3{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/3.jpg);
-
 }
 .ph4{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/4.jpg);
-
 }
 .ph5{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/5.jpg);
-
 }
 .ph6{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/6.jpg);
-
 }
 .ph7{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/7.jpg);
-
 }
 .ph8{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/8.jpg);
-
 }
 .ph9{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/9.jpg);
-
 }
 .ph10{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/10.jpg);
-
 }
 .ph11{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/11.jpg);
-
 }
 .ph12{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/12.jpg);
-
 }
 .ph13{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/13.jpg);
-
 }
 .ph14{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/14.jpg);
-
 }
 .ph15{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/15.jpg);
-
 }
 .ph16{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/16.jpg);
-
 }
 .ph17{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/17.jpg);
-
 }
 .ph18{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/21.jpg);
-
 }
 .ph19{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/19.jpg);
-
 }
 .ph20{
   background-image: url(/Users/mattia/Desktop/Apartment/Fewo/JPG/20.jpg);
-
 }
 
 
@@ -684,14 +656,13 @@ button {
   font-size: 26px;
   border: none;
   color: white;
-  position: relative;
+  position: absolute;
   top: 0%;
   z-index: 10;
   cursor: pointer;
   outline: none;
 }
 .next{
-  position: absolute;
   left: 100%;
   background-color: #E37B40;
   border-radius: 0px 10px 10px 0px;
@@ -699,7 +670,6 @@ button {
 }
 
 .prev{
-  position: absolute;
   transform: translate(80%, 200px);
   background-color: #E37B40;
   left: 0%;
@@ -709,7 +679,6 @@ button {
   background-color: #FFAB7A;
   color: #606899;
 }
-
 
 #show {
   position: absolute;
@@ -730,16 +699,16 @@ button {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 10px;
-  }
+}
 
 .icon{
     min-height: 80px;
-    text-align: center;}
+    text-align: center;
+  }
 
 .wifi{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/wifi.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -748,7 +717,6 @@ button {
 .lavatrice{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/lavatrice.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -757,7 +725,6 @@ button {
 .towels{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/towels.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -766,7 +733,6 @@ button {
 .thermo{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/thermo.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -775,7 +741,6 @@ button {
 .park{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/park.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -784,7 +749,6 @@ button {
 .cutlery{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/cutlery.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -793,7 +757,6 @@ button {
 .stove{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/stove.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -802,7 +765,6 @@ button {
 .hanger{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/hanger.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -811,7 +773,6 @@ button {
 .phon{
   background-image: url(/Users/mattia/Desktop/Apartment/icons/phon.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
@@ -820,7 +781,6 @@ button {
 .micro{
   background-image: url(/Users/mattia/Code/pagina/Apartment/icons/micro.svg);
   background-size: 80px 80px;
-  background-repeat: no-repeat;
   height: 80px;
   width: 80px;
   margin: 0 auto;
