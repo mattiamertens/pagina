@@ -1,8 +1,3 @@
-function lingua() {
-  $(this).addClass("esempio")
-}
-$(".lingua").click(lingua);
-
 $(document).ready(function (){
   $("#caricamento").delay(3600).fadeOut()});
 
