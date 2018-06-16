@@ -117,7 +117,7 @@ a{
   position: relative;
   height: 500px;
   width: 100%;
-  background-image: url(/Users/mattia/Desktop/Apartment/images/pano1.jpg);
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/casa1.jpg);
 
 }
 
@@ -193,21 +193,25 @@ h2{
   grid-column: 2/4;
 }
 .box4{
-  background-image: url(/Users/mattia/Code/pagina/Apartment/images/rosa.jpg);
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/ws1.jpg);
   background-size: cover;
   grid-column: 2/5;
 }
 .box5{
-  background-color: #C48DBB;
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/ulivo.jpg);
+  background-size: cover;
   grid-column: 5/7;
   grid-row: 1/3;
 }
 .box6{
-  background-color: #48A8A7;
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/vista.jpg);
   grid-row: 2/4;
+  background-size: cover;
+
 }
 .box7{
-  background-color: #6C796D;
+  background-image: url(/Users/mattia/Code/pagina/Apartment/images/rosa.jpg);
+  background-size: cover;
   grid-column: 5/7;
 }
 
@@ -245,7 +249,7 @@ h2{
   padding: 0 10px;
   left: 5%;
   line-height: 1.4;
-  box-shadow: 0px -5px 20px 0px inset #50592E;
+  box-shadow: 0px -5px 20px 0px inset rgba(0,0,0,0.2);
   overflow: hidden;
   transition: 0.8s;
 }
@@ -312,9 +316,7 @@ h2{
   font-size: 18px;
   /*background-color: rgba(255, 255, 255, 0.2);*/
 }
-.div1{
-  grid-column: 1/2;
-}
+
 .div2{
   left: 240px;
 }
@@ -827,6 +829,50 @@ button {
   max-width: 1260px;
 }
 
-.cazzo {
-  background-color: red;
+/* inzio reservation */
+
+.container-pr{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 560px;
+  max-width: 900px;
+  margin: 7px auto;
+  margin-bottom: -93px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  grid-row-gap: 7px;
+}
+.bassa{
+  background-color: #DBF2C4;
+  height: 100%;
+}
+.media{
+  background-color: #96A679;
+  height: 100%;
+}
+.alta{
+  background-color: #50592E;
+  height: 100%;
+}
+.prezzo1, .prezzo2, .prezzo3{
+  text-align: center;
+  height: 100%;
+}
+.prezzo1{
+  background-color: #DBF2C4;
+}
+.prezzo2{
+  background-color: #96A679;
+}
+.prezzo3{
+  background-color: #50592E;
+}
+.costi{
+  grid-column: 1/3;
+  text-align: right;
+  position: relative;
+  top: -50px;
+  font-size: 13px;
 }
