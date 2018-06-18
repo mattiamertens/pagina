@@ -56,4 +56,13 @@ $(document).ready(function(){
       prevImg.addClass('active').css('z-index', 10);
     }
   });
-});
+}); // slideshow immagini //
+
+$(window).on("scroll", function() {
+  if($(window).scrollTop())
+     $('navbar').addClass('ontop');
+   }
+  else {
+     $('navbar').removeClass('ontop');
+        }
+      })
