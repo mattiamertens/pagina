@@ -16,6 +16,7 @@ body {
   margin: 10px 0 0 15px;
   min-width: 100px;
   left: 85%;
+  top: 80px;
   cursor: pointer;
 }
 
@@ -30,14 +31,20 @@ body {
 }
 
 .navbar{
+  top: 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1300px;
+  z-index: 1000;
+  transition: 0.7s;
+}
+.head{
   position: fixed;
   top: 0;
   width: 100%;
   margin: 0 auto;
   max-width: 1300px;
   z-index: 1000;
-  transition: 1s;
-
 }
 .wrapper{
   margin: 0;
@@ -72,6 +79,7 @@ a{
   width: 35px;
   left: calc(50% - 17px);
   top: 50%;
+
 }
 
 .line{
@@ -711,7 +719,6 @@ button {
 .servizi{
   height: 80px;
   width: 100%;
-  background-color: #96A679;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 10px;
@@ -728,6 +735,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .lavatrice{
@@ -736,6 +744,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .towels{
@@ -744,6 +753,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .thermo{
@@ -752,6 +762,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .park{
@@ -760,6 +771,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .cutlery{
@@ -768,6 +780,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .stove{
@@ -776,6 +789,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .hanger{
@@ -784,6 +798,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .phon{
@@ -792,6 +807,7 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .micro{
@@ -800,8 +816,11 @@ button {
   height: 80px;
   width: 80px;
   margin: 0 auto;
+  border-radius: 8px;
 }
-
+.i4ewOd-pzNkMb-haAclf{
+  background-color: red;
+}
 .map{
   position: relative;
   margin: 20px auto 0 auto;

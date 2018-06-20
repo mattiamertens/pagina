@@ -59,10 +59,10 @@ $(document).ready(function(){
 }); // slideshow immagini //
 
 $(window).on("scroll", function() {
-  if($(window).scrollTop())
-     $('navbar').addClass('ontop');
+  if($(window).scrollTop()){
+     $('nav').addClass('ontop');
    }
   else {
-     $('navbar').removeClass('ontop');
+     $('nav').removeClass('ontop');
         }
       })
