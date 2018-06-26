@@ -2,7 +2,7 @@ $(document).ready(function (){
   $("#caricamento").delay(3600).fadeOut()});
 
 function button() {
-  $(".descrizione").toggleClass("vista", 1000)
+  $(".descrizione").toggleClass("vista")
   if ($(".descrizione").hasClass("vista")) {
     $(".show").html("Show less")
   }
@@ -65,4 +65,4 @@ $(window).on("scroll", function() {
   else {
      $('nav').removeClass('ontop');
         }
-      })
+      })  // navbar scura
