@@ -22,7 +22,7 @@ function initMap() {
     position: perugia,
     map: map
   });
-};
+};  //mappa di google
 
 function active() {
   $(this).addClass("hovered")
@@ -66,3 +66,16 @@ $(window).on("scroll", function() {
      $('nav').removeClass('ontop');
         }
       })  // navbar scura
+
+function sldshow() {
+  $(".box").toggleClass("novis");
+  $(".copritutto").toggleClass("visibile");
+  $(this).toggleClass("sldshow")
+};
+function back(){
+    $(".box").removeClass("novis");
+    $(".copritutto").removeClass("visibile");
+    $(".box").removeClass("sldshow");
+};
+$(".copritutto").click(back); //funzione per togliere lo slideshow aggiuntiva
+$(".box1, .box2, .box3, .box4, .box5, .box6, .box7").click(sldshow);

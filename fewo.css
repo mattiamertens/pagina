@@ -163,6 +163,26 @@ h2{
   text-transform: uppercase;
 }
 
+.box {  /* spostato qui per motivi di class*/
+  width: 100%;
+  min-height: 180px;
+}
+
+.copritutto{
+  width: 100%;
+  height: 120vh;
+  position: absolute;
+  transform: translate(0, -100px);
+  ;
+}
+.novis{
+  display: none;
+}
+.visibile{
+  background-color: rgba(26, 31, 31, 1);
+  z-index: 99
+}
+
 .container {
   position: relative;
   margin: 25px auto 30px auto;
@@ -182,10 +202,6 @@ h2{
   grid-auto-rows:minmax(180px, auto); */
 }
 
-.box {
-  width: 100%;
-  min-height: 180px;
-}
 
  .box1{
   background-image: url(/Users/mattia/Code/pagina/Apartment/images/ingresso.jpg);
@@ -224,6 +240,17 @@ h2{
   background-image: url(/Users/mattia/Code/pagina/Apartment/images/rosa.jpg);
   background-size: cover;
   grid-column: 5/7;
+}
+.sldshow{ /*class per fare lo slideshow fake */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  height: 500px;
+  transform: translate(-200px);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .linea-container {
