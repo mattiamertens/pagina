@@ -1,7 +1,5 @@
 $(window).on('load', scompare) ;
 
-// $(document).ready(function (){
-//   $("#caricamento").delay(3600).fadeOut()});
 function scompare() {
   $("#caricamento").fadeOut(400);
 };
@@ -72,9 +70,9 @@ $(window).on("scroll", function() {
       })  // navbar scura
 
 function sldshow() {
-  $(".box").toggleClass("novis");
+  $("nav, .wrapperino").toggleClass("novis");
   $(".copritutto").toggleClass("visibile");
-  $(this).toggleClass("sldshow")
+  $(".slider-in").toggleClass("sldshow")
 }; //attivare lo slideshow fasullo
 function back(){
     $(".box").removeClass("novis");
