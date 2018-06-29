@@ -1,6 +1,10 @@
-$(document).ready(function (){
-  $("#caricamento").delay(3600).fadeOut()});
+$(window).on('load', scompare) ;
 
+// $(document).ready(function (){
+//   $("#caricamento").delay(3600).fadeOut()});
+function scompare() {
+  $("#caricamento").fadeOut(400);
+};
 function button() {
   $(".descrizione").toggleClass("vista")
   if ($(".descrizione").hasClass("vista")) {
