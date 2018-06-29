@@ -1,8 +1,17 @@
 $(window).on('load', scompare) ;
-
 function scompare() {
   $("#caricamento").fadeOut(400);
 };
+
+$(window).on("scroll", function() {
+  if($(window).scrollTop()){
+     $('nav').addClass('ontop');
+   }
+  else {
+     $('nav').removeClass('ontop');
+        }
+      })      // navbar scura
+
 function button() {
   $(".descrizione").toggleClass("vista")
   if ($(".descrizione").hasClass("vista")) {
@@ -60,33 +69,45 @@ $(document).ready(function(){
   });
 }); // slideshow immagini //
 
-$(window).on("scroll", function() {
-  if($(window).scrollTop()){
-     $('nav').addClass('ontop');
-   }
-  else {
-     $('nav').removeClass('ontop');
-        }
-      })  // navbar scura
+$(document).ready(function(){
+  $('.next-in').click(function(){
+    var thisImg = $('.active');
+    var nextImg = thisImg.next();
+
+    if(nextImg.length){
+      thisImg.removeClass('active');
+      nextImg.addClass('active');
+    }
+  });
+
+  $('.prev-in').click(function(){
+    var thisImg = $('.active');
+    var prevImg = thisImg.prev();
+
+    if(prevImg.length){
+      thisImg.removeClass('active');
+      //how to style single CSS property:
+      prevImg.addClass('active').css('z-index', 10);
+    }
+  });
+}); //slideshow di INDEX
+
 
 function sldshow() {
-  $("nav, .wrapperino").toggleClass("novis");
+  $("nav, .wrapperino").addClass("novis");
   $(".copritutto").toggleClass("visibile");
   $(".slider-in").toggleClass("sldshow")
 }; //attivare lo slideshow fasullo
 function back(){
-    $(".box").removeClass("novis");
+    $("nav, .wrapperino").removeClass("novis");
     $(".copritutto").removeClass("visibile");
-    $(".box").removeClass("sldshow");
+    $(".slider-in").removeClass("sldshow");
 };
 $(".copritutto").click(back); //funzione per togliere lo slideshow aggiuntiva
-$(".box1, .box2, .box3, .box4, .box5, .box6, .box7").click(sldshow);
+$(".box").click(sldshow);
 
 function attivita() {
-  $(this).animate({
-    left: "0px",
-    width: "+=900px",
-  });
+  
   $(".coverdiv").addClass("hovered")
 }
 
