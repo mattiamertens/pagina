@@ -769,7 +769,7 @@ button {
   }
 
 .wifi{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/wifi.svg);
+  background-image: url(Apartment/icons/wifi.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -778,7 +778,7 @@ button {
 }
 
 .lavatrice{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/lavatrice.svg);
+  background-image: url(Apartment/icons/lavatrice.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -787,7 +787,7 @@ button {
 }
 
 .towels{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/towels.svg);
+  background-image: url(Apartment/icons/towels.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -796,7 +796,7 @@ button {
 }
 
 .thermo{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/thermo.svg);
+  background-image: url(Apartment/icons/thermo.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -805,7 +805,7 @@ button {
 }
 
 .park{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/park.svg);
+  background-image: url(Apartment/icons/park.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -814,7 +814,7 @@ button {
 }
 
 .cutlery{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/cutlery.svg);
+  background-image: url(Apartment/icons/cutlery.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -823,7 +823,7 @@ button {
 }
 
 .stove{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/stove.svg);
+  background-image: url(Apartment/icons/stove.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -832,7 +832,7 @@ button {
 }
 
 .hanger{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/hanger.svg);
+  background-image: url(Apartment/icons/hanger.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -841,7 +841,7 @@ button {
 }
 
 .phon{
-  background-image: url(/Users/mattia/Desktop/Apartment/icons/phon.svg);
+  background-image: url(Apartment/icons/phon.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
@@ -850,16 +850,14 @@ button {
 }
 
 .micro{
-  background-image: url(/Users/mattia/Code/pagina/Apartment/icons/micro.svg);
+  background-image: url(Apartment/icons/micro.svg);
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
   margin: 0 auto;
   border-radius: 8px;
 }
-.i4ewOd-pzNkMb-haAclf{
-  background-color: red;
-}
+
 .map{
   position: relative;
   margin: 20px auto 0 auto;
