@@ -426,10 +426,15 @@ h2{
 .col{
   transform: translate(0, -125.5%);
   height: 400px;
-
 }
 .col1{
 transform: translate(0, -30%);
+}
+.col2{
+  height: 280px;
+  width: 130%;
+  top: 20%;
+  left: -20%;
 }
 #map {
   height: 400px;
