@@ -202,6 +202,7 @@ h2{
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 7px;
+  cursor: pointer;
   /*
   -sosttuito con max width di .container
   width: 90%;
@@ -651,12 +652,14 @@ background-image: url(Apartment/images/JPG/1.jpg);
 }
 .ph5{
   background-image: url(Apartment/images/JPG/5.jpg);
+  transform: translate(-21.8%);
 }
 .ph6{
   background-image: url(Apartment/images/JPG/6.jpg);
 }
 .ph7{
   background-image: url(Apartment/images/JPG/7.jpg);
+  transform: translate(-21.8%);
 }
 .ph8{
   background-image: url(Apartment/images/JPG/8.jpg);
@@ -737,7 +740,7 @@ button {
 .serv-container {
   max-width: 1000px;
   position: relative;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .servizi{

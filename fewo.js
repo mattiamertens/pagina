@@ -107,7 +107,10 @@ $(".copritutto").click(back); //funzione per togliere lo slideshow aggiuntiva
 $(".box").click(sldshow);
 
 function attivita() {
-  
+  $(this).animate({
+    left: "0px",
+    width: "+=900px",
+  });
   $(".coverdiv").addClass("hovered")
 }
 
