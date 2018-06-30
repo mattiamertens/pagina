@@ -228,7 +228,7 @@ h2{
   grid-column: 2/4;
 }
 .box4{
-  background-image: url(Apartment/ph_grid/ws1.jpg);
+  background-image: url(Apartment/ph_grid/ws.jpg);
   background-size: cover;
   grid-column: 2/5;
 }
@@ -248,67 +248,6 @@ h2{
   background-size: cover;
   grid-column: 5/7;
 }
-.slider-in{
-  max-width: 1080px;
-  height: 500px;
-  margin: 20px auto;
-  position: absolute;
-  display: none;
-}
-
-.sldshow{ /*class per fare lo slideshow fake */
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-}
-.next-in{
-  left: 130%;
-  background-color: rgba(20, 24, 25, 0);
-  border-radius: 0px 10px 10px 0px;
-  transform: translate(-168%, 200px);
-  color: #B2C9D6;
-
-}
-
-.prev-in{
-  transform: translate(80%, 200px);
-  background-color: rgba(20, 24, 25, 0);
-  left: -30%;
-  color: #B2C9D6;
-}
-
-/* foto per slideshow di index */
-.fo1{
-  background-image: url(Apartment/ph_grid/ingresso.jpg);
-}
-.fo2{
-  background-image: url(Apartment/ph_grid/ortensia.jpg);
-}
-.fo3{
-  background-image: url(Apartment/ph_grid/rosa.jpg);
-}
-.fo4{
-  background-image: url(Apartment/ph_grid/ws1.jpg);
-}
-.fo5{
-  background-image: url(Apartment/ph_grid/ulivo.jpg);
-}
-.fo6{
-  background-image: url(Apartment/ph_grid/vista.jpg);
-}
-.fo7{
-  background-image: url(Apartment/ph_grid/fiore.jpg);
-}
-.fo7{
-  background-image: url(Apartment/ph_grid/fiore.jpg);
-}
-
-
 
 .linea-container {
   max-width: 900px;
@@ -693,10 +632,8 @@ position: relative;
 left: 50%;
 transform: translate(-50%);
 display: none;
-background-size: cover;
-}
-.active {
-  display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 /* foto dello slideshow */
@@ -958,4 +895,76 @@ button {
   position: relative;
   top: -63px;
   font-size: 13px;
+}
+
+.pic1{
+height: 500px;
+width: 750px;
+position: relative;
+left: 50%;
+transform: translate(-50%);
+display: none;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.slider-in{
+  max-width: 1080px;
+  height: 500px;
+  margin: 20px auto;
+  position: absolute;
+  display: none;
+}
+
+.sldshow{ /*class per fare lo slideshow fake */
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-size: contain;
+  margin: 0 auto;
+}
+.next-in{
+  left: 130%;
+  background-color: rgba(20, 24, 25, 0);
+  border-radius: 0px 10px 10px 0px;
+  transform: translate(-168%, 200px);
+  color: #B2C9D6;
+}
+.prev-in{
+  transform: translate(80%, 200px);
+  background-color: rgba(20, 24, 25, 0);
+  left: -30%;
+  color: #B2C9D6;
+}
+
+
+/* foto per slideshow di index */
+.fo1{
+  background-image: url(Apartment/ph_grid/ingresso1.jpg);
+
+}
+.fo2{
+  background-image: url(Apartment/ph_grid/ortensia.jpg);
+}
+.fo3{
+  background-image: url(Apartment/ph_grid/rosa.jpg);
+}
+.fo4{
+  background-image: url(Apartment/ph_grid/ws1.jpg);
+  background-size: cover;
+}
+.fo5{
+  background-image: url(Apartment/ph_grid/ulivo.jpg);
+  background-size: cover;
+}
+.fo6{
+  background-image: url(Apartment/ph_grid/vista.jpg);
+}
+.fo7{
+  background-image: url(Apartment/ph_grid/fiore.jpg);
+  background-size: cover;
+}
+.active {
+  display: inline-block;
 }
