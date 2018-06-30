@@ -942,13 +942,16 @@ background-repeat: no-repeat;
 /* foto per slideshow di index */
 .fo1{
   background-image: url(Apartment/ph_grid/ingresso1.jpg);
+  transform: translate(-24.9%);
 
 }
 .fo2{
   background-image: url(Apartment/ph_grid/ortensia.jpg);
+  transform: translate(-24.9%);
 }
 .fo3{
   background-image: url(Apartment/ph_grid/rosa.jpg);
+  transform: translate(-24.9%);
 }
 .fo4{
   background-image: url(Apartment/ph_grid/ws1.jpg);
@@ -960,6 +963,7 @@ background-repeat: no-repeat;
 }
 .fo6{
   background-image: url(Apartment/ph_grid/vista.jpg);
+  transform: translate(-24.9%);
 }
 .fo7{
   background-image: url(Apartment/ph_grid/fiore.jpg);
