@@ -648,10 +648,10 @@ background-image: url(Apartment/images/JPG/1.jpg);
   background-image: url(Apartment/images/JPG/3.jpg);
 }
 .ph4{
-  background-image: url(/Apartment/images/JPG/4.jpg);
+  background-image: url(Apartment/images/JPG/1-1.jpg);
 }
 .ph5{
-  background-image: url(Apartment/images/JPG/5.jpg);
+  background-image: url(Apartment/images/JPG/1-0.jpg);
   transform: translate(-21.8%);
 }
 .ph6{
@@ -665,13 +665,16 @@ background-image: url(Apartment/images/JPG/1.jpg);
   background-image: url(Apartment/images/JPG/8.jpg);
 }
 .ph9{
-  background-image: url(Apartment/images/JPG/9.jpg);
+  background-image: url(Apartment/images/JPG/1-6.jpg);
+  background-size: cover;
 }
 .ph10{
   background-image: url(Apartment/images/JPG/10.jpg);
 }
 .ph11{
-  background-image: url(Apartment/images/JPG/11.jpg);
+  background-image: url(Apartment/images/JPG/1-4.jpg);
+  background-size: cover;
+
 }
 .ph12{
   background-image: url(Apartment/images/JPG/12.jpg);
@@ -679,26 +682,29 @@ background-image: url(Apartment/images/JPG/1.jpg);
 .ph13{
   background-image: url(Apartment/images/JPG/13.jpg);
 }
-.ph14{
+/* .ph14{
   background-image: url(Apartment/images/JPG/14.jpg);
-}
+} */
 .ph15{
   background-image: url(Apartment/images/JPG/15.jpg);
 }
-.ph16{
+/* .ph16{
   background-image: url(Apartment/images/JPG/16.jpg);
-}
+} */
 .ph17{
   background-image: url(Apartment/images/JPG/17.jpg);
 }
 .ph18{
-  background-image: url(Apartment/images/JPG/21.jpg);
+  background-image: url(Apartment/images/JPG/rosa2.jpg);
+  background-size: cover;
 }
 .ph19{
   background-image: url(Apartment/images/JPG/19.jpg);
 }
 .ph20{ /* fiore di merda */
-  background-image: url(Apartment/images/JPG/20.jpg);
+  background-image: url(Apartment/images/JPG/rosa3.jpg);
+  transform: translate(-21.8%);
+
 }
 
 
