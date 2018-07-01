@@ -15,7 +15,7 @@ $(window).on("scroll", function() {
 function button() {
   $(".descrizione").toggleClass("vista")
   if ($(".descrizione").hasClass("vista")) {
-    $(".show").html("Show less")
+      $(".show").html("Show less")
   }
   else {
     $(".show").html("Show more")
@@ -94,12 +94,12 @@ $(document).ready(function(){
 
 
 function sldshow() {
-  $("nav, .wrapperino").addClass("novis");
+  $("nav, .language").addClass("novis");
   $(".copritutto").toggleClass("visibile");
   $(".slider-in").toggleClass("sldshow")
 }; //attivare lo slideshow fasullo
 function back(){
-    $("nav, .wrapperino").removeClass("novis");
+    $("nav, .language").removeClass("novis");
     $(".copritutto").removeClass("visibile");
     $(".slider-in").removeClass("sldshow");
 };

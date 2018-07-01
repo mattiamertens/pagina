@@ -184,6 +184,7 @@ h2{
 }
 .novis{
   opacity: 0;
+  pointer-events: none;
 }
 .visibile{
   background-color: rgba(20, 24, 25, 0.98);
@@ -956,7 +957,8 @@ background-repeat: no-repeat;
   position: absolute;
   height: 34px;
   width: 34px;
-  top: 0;
+  top: 0%;
+  z-index: 999;
   left: 110%;
 }
 
