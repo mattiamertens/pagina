@@ -177,7 +177,7 @@ h2{
 
 .copritutto{
   width: 100%;
-  height: 120vh;
+  height: 140vh;
   position: absolute;
   transform: translate(0, -100px);
   ;
@@ -951,7 +951,14 @@ background-repeat: no-repeat;
   left: -30%;
   color: #B2C9D6;
 }
-
+.chiudi{
+  background-image: url(Apartment/icons/x1.svg);
+  position: absolute;
+  height: 34px;
+  width: 34px;
+  top: 0;
+  left: 110%;
+}
 
 /* foto per slideshow di index */
 .fo1{

@@ -103,7 +103,7 @@ function back(){
     $(".copritutto").removeClass("visibile");
     $(".slider-in").removeClass("sldshow");
 };
-$(".copritutto").click(back); //funzione per togliere lo slideshow aggiuntiva
+$(".copritutto, .chiudi").click(back); //funzione per togliere lo slideshow aggiuntiva
 $(".box").click(sldshow);
 
 function attivita() {
