@@ -12,17 +12,35 @@ $(window).on("scroll", function() {
         }
       })      // navbar scura
 
-function button() {
+// function button() {
+//   $(".descrizione").toggleClass("vista")
+//
+//   if ($(".descrizione").hasClass("vista")) {
+//       $(".show").html("Show less")
+//       $(".descrizione").animate({height:"135px"});
+//
+//   }
+//   else {
+//     $(".show").html("Show more")
+//     $(".descrizione").animate({height:"580px"});
+//   }
+// }
+$(".show").click(buttonino)
+
+var vis=0;
+function buttonino() {
   $(".descrizione").toggleClass("vista")
-  if ($(".descrizione").hasClass("vista")) {
-      $(".show").html("Show less")
-      $(".descrizione").slideDown(700);
-  }
-  else {
-    $(".show").html("Show more")
+  if (vis==0) {
+    $(".descrizione").animate({height:"550px"});
+    $(".show").html("Show less");
+    vis=1;
+  } else {
+      $(".descrizione").animate({height:"135px"});
+
+      $(".show").html("Show more");
+      vis=0;
   }
 }
-$(".show").click(button)
 
 function initMap() {
   var perugia = {lat: 43.107260, lng: 12.407274};
