@@ -1,6 +1,6 @@
 $(window).on('load', scompare) ;
 function scompare() {
-  $("#caricamento").fadeOut(400);
+  $("#caricamento, .inizio").fadeOut(400);
 };
 
 $(window).on("scroll", function() {

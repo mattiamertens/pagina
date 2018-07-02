@@ -8,42 +8,26 @@
     <link rel="stylesheet" href="fewo.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script src="jquery.js"></script>
-    
+
     <style>
 
       @keyframes spin {
-        0% { transform: rotate(0);}
+        0% { transform: rotate(0); }
         50% {transform: rotate(360deg);}
         100% {transform: rotate(-360deg);}
       };
-
       img {position: absolute;}
 
-      #logo{
-        position: absolute;
-        left: 50%;
-        top: 220px;
-        transform: translate(-50%, -50%);
-        z-index: 20;
-      }
-
-      #sp2{
-        position: absolute;
-        left: calc(50% - 135px);
-        top: calc(50% - 202px);
-        animation: spin 4s ease-in-out infinite;
-        z-index: 20;
-      }
     </style>
   </head>
   <body>
 <div id="caricamento">
   <img id="sp2" src="Apartment/spinner/poli4.png" width="270px">
   <img id="logo" src="Apartment/spinner/poli.png" width="108px">
-  <div class="inizio"></div>
-</div>
 
-<div class="pano"><h2>SENTITI A CASA</h2></div>
+</div>
+<div class="inizio"></div>
+<div class="pano"><h2 class="casa">SENTITI A CASA</h2></div>
 
 <div class="head">
 <div class="language">

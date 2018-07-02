@@ -2,14 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
   margin: 0;
-  font-family: 'Gidole';
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
+}
+#caricamento{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -140%);
+  z-index: 1002;
+}
+#logo{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+#sp2{
+  position: absolute;
+  top: calc(0% - 75px);
+  left: calc(0% - 85px);
+  animation: spin 4s ease-in-out infinite;
 }
 .inizio{
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
-  z-index: 19;
-  height: 2445px;
+  z-index: 1001;
+  height: 100vh;
   width: 100%;
 }
 .language{
@@ -141,16 +164,17 @@ a{
 h2{
   margin: 0 auto;
   padding: 10px 13px;
-  min-width: 230px;
   position: relative;
   border-radius: 4px;
   top: 50%;
   color: white;
   text-align: center;
-  width: 190px;
-  box-shadow: 2px 1px 4px #88A67B;
   background-color: #96A679;
-  font-size: 25pt;
+  font-size: 23pt;
+}
+.casa{
+  position: relative;
+  max-width: 250px;
 }
 .primo{
   background-color: #96A679;
@@ -447,8 +471,8 @@ transform: translate(0, -30%);
  /* Inizio About us */
 
  .about{
-   text-align: center;
    position: relative;
+   max-width: 160px;
  }
 
  .container-ab {
@@ -611,7 +635,7 @@ transform: translate(0, -30%);
 .apartment{
   text-align: center;
   position: relative;
-  width: 250px;
+  max-width: 250px;
 
 }
 
@@ -867,6 +891,10 @@ button {
 }
 
 /* inzio reservation */
+
+.prezzi{
+  max-width: 160px;
+}
 
 .container-pr{
   display: grid;
