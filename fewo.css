@@ -66,7 +66,9 @@ body {
 .head{
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1300px;
+  left: 50%;
+  transform: translate(-50%);
   margin: 0 auto;
   z-index: 1000;
 }
@@ -112,11 +114,12 @@ a{
   background-color: #FFF;
   position: absolute;
   left:16.66%;
-  top: 25px;
+  top: 26px;
 }
 
 #line{
-  left: 83.33%;
+  /* transform: translate(40083.33%); */
+  left:82.33%;
 }
 #home{
   grid-column:1/2;
@@ -312,15 +315,13 @@ h2{
   line-height: 1.4;
   box-shadow: 0px -5px 20px 0px inset rgba(0,0,0,0.2);
   overflow: hidden;
-  transition-duration: 0.8s;
+  transition: 0.8s;
 }
+
 .vista{
   height: auto;
-  position: relative;
-  width: 40%;
-  left: 5%;
   box-shadow: 0px 0px;
-  transition: height 0.8s;
+  transition: 0.8s;
 }
 
  /* bottone show more */

@@ -16,6 +16,7 @@ function button() {
   $(".descrizione").toggleClass("vista")
   if ($(".descrizione").hasClass("vista")) {
       $(".show").html("Show less")
+      $(".descrizione").slideDown(700);
   }
   else {
     $(".show").html("Show more")
