@@ -106,12 +106,12 @@ function back(){
 $(".copritutto, .chiudi").click(back); //funzione per togliere lo slideshow aggiuntiva
 $(".box").click(sldshow);
 
-function attivita() {
-  $(this).animate({
-    left: "0px",
-    width: "+=900px",
-  });
-  $(".coverdiv").addClass("hovered")
-}
-
-$(".ac1, .ac2, .ac3, .ac4, .ac5").click(attivita)
+// function attivita() {
+//   $(this).animate({
+//     left: "0px",
+//     width: "+=900px",
+//   });
+//   $(".coverdiv").addClass("hovered")
+// }
+//
+// $(".ac1, .ac2, .ac3, .ac4, .ac5").click(attivita)
