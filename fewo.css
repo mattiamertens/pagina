@@ -313,7 +313,8 @@ h2{
   padding: 0 10px;
   left: 5%;
   line-height: 1.4;
-  box-shadow: 0px -5px 20px 0px inset rgba(0,0,0,0.2);
+  box-shadow: 0 -8px 6px -6px inset rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 -8px 6px -6px inset rgba(0,0,0,0.4);
   overflow: hidden;
   transition: 0.6s;
 }
@@ -321,6 +322,7 @@ h2{
 .vista{
   /* height: auto; */
   box-shadow: 0px 0px;
+  -webkit-box-shadow: 0px 0px;
   transition: 0.6s;
 }
 
