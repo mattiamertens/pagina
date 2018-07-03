@@ -123,6 +123,11 @@ function back(){
     $(".slider-in").removeClass("sldshow");
 };
 $(".copritutto, .chiudi").click(back); //funzione per togliere lo slideshow aggiuntiva
+$(document).keyup(function(e) {
+if(e.keyCode== 27) {
+    back();
+}
+});
 $(".box").click(sldshow);
 
 // function attivita() {
